@@ -5,7 +5,7 @@ App was made using Swift, includes payment processing, login with social media.
 
 Here are some images of the app:
 
-![Alt text](relative/path/to/img.jpg?raw=true "Title")
+![Alt text](IMG_1076.jpg "Title")
 ******
 ******
-![Alt text](relative/path/to/img.jpg?raw=true "Title")
+![Alt text](IMG_1077.jpg "Title")
