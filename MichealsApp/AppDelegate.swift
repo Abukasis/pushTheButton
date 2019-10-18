@@ -8,6 +8,11 @@
 
 import UIKit
 import CoreData
+import Parse
+import Stripe
+import FacebookCore
+import FBSDKCoreKit
+import FBSDKLoginKit
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -17,7 +22,27 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+       ApplicationDelegate.shared.application(application, didFinishLaunchingWithOptions: launchOptions)
+        
+       
+        
+        STPPaymentConfiguration.shared().publishableKey = "pk_test_CAKox83cd6RQv4TQdGyqs9O100kqUwG6hu"
+        STPPaymentConfiguration.shared().appleMerchantIdentifier = "merchant.stickerpaynow"
+        
+        let configuration = ParseClientConfiguration{
+            $0.applicationId = "yqmX4K27jLYPS5QBattRCzzlGxyW9QSzE0Va7Hpq"
+            $0.clientKey = "BZZg0oh1LZAg5NRTsr1xBHeOIhO8m7QQVbAP6PZi"
+            $0.server = "https://parseapi.back4app.com"
+        }
+        Parse.initialize(with: configuration)
+        
+        
         return true
+    }
+    
+    func application(_ app: UIApplication, open url: URL, options: [UIApplication.OpenURLOptionsKey : Any] = [:]) -> Bool {
+        return ApplicationDelegate.shared.application(app, open: url, options: options)
     }
 
     func applicationWillResignActive(_ application: UIApplication) {

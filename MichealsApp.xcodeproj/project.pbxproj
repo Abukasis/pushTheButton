@@ -7,15 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8415142B22D96B1D00AE10DA /* cheering.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8415142A22D96B1D00AE10DA /* cheering.mp3 */; };
+		84194A2822C43D0B00DA14A1 /* FirstPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84194A2722C43D0B00DA14A1 /* FirstPage.swift */; };
+		84194A2A22C43D2400DA14A1 /* Register.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84194A2922C43D2400DA14A1 /* Register.swift */; };
+		84194A2C22C43D3100DA14A1 /* Market.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84194A2B22C43D3100DA14A1 /* Market.swift */; };
+		84194A2E22C4405000DA14A1 /* LogIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84194A2D22C4405000DA14A1 /* LogIn.swift */; };
+		84263EE622DEEE2B00520ED6 /* Video.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 84263EE522DEEE2A00520ED6 /* Video.mp4 */; };
+		84263EE922DF00BA00520ED6 /* A Little Mixed Up.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 84263EE822DF00BA00520ED6 /* A Little Mixed Up.ttf */; };
 		844EEF8022C2E344009F4D3A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844EEF7F22C2E344009F4D3A /* AppDelegate.swift */; };
 		844EEF8222C2E344009F4D3A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844EEF8122C2E344009F4D3A /* ViewController.swift */; };
 		844EEF8522C2E344009F4D3A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 844EEF8322C2E344009F4D3A /* Main.storyboard */; };
 		844EEF8822C2E345009F4D3A /* MichealsApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 844EEF8622C2E345009F4D3A /* MichealsApp.xcdatamodeld */; };
 		844EEF8A22C2E347009F4D3A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 844EEF8922C2E347009F4D3A /* Assets.xcassets */; };
 		844EEF8D22C2E347009F4D3A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 844EEF8B22C2E347009F4D3A /* LaunchScreen.storyboard */; };
+		84B7212422C4AD5400AAD7C8 /* ButtonStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B7212322C4AD5400AAD7C8 /* ButtonStruct.swift */; };
+		84D4460022D94EE0000471A2 /* bridgingFacebook.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D445FF22D94EE0000471A2 /* bridgingFacebook.m */; };
+		EE3A88EE5F942EE07082367F /* Pods_MichealsApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D88E9CE2FBF85BFF1C91ADA /* Pods_MichealsApp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8415142A22D96B1D00AE10DA /* cheering.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = cheering.mp3; sourceTree = "<group>"; };
+		84194A2722C43D0B00DA14A1 /* FirstPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstPage.swift; sourceTree = "<group>"; };
+		84194A2922C43D2400DA14A1 /* Register.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Register.swift; sourceTree = "<group>"; };
+		84194A2B22C43D3100DA14A1 /* Market.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Market.swift; sourceTree = "<group>"; };
+		84194A2D22C4405000DA14A1 /* LogIn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogIn.swift; sourceTree = "<group>"; };
+		84263EE522DEEE2A00520ED6 /* Video.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = Video.mp4; path = Assets.xcassets/Video.dataset/Video.mp4; sourceTree = "<group>"; };
+		84263EE822DF00BA00520ED6 /* A Little Mixed Up.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "A Little Mixed Up.ttf"; sourceTree = "<group>"; };
 		844EEF7C22C2E344009F4D3A /* MichealsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MichealsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		844EEF7F22C2E344009F4D3A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		844EEF8122C2E344009F4D3A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +41,13 @@
 		844EEF8922C2E347009F4D3A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		844EEF8C22C2E347009F4D3A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		844EEF8E22C2E347009F4D3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		844EEF9422C2E38B009F4D3A /* MichealsApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MichealsApp.entitlements; sourceTree = "<group>"; };
+		84B7212322C4AD5400AAD7C8 /* ButtonStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonStruct.swift; sourceTree = "<group>"; };
+		84D445FE22D94EE0000471A2 /* MichealsApp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MichealsApp-Bridging-Header.h"; sourceTree = "<group>"; };
+		84D445FF22D94EE0000471A2 /* bridgingFacebook.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = bridgingFacebook.m; sourceTree = "<group>"; };
+		9D88E9CE2FBF85BFF1C91ADA /* Pods_MichealsApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MichealsApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAD3B3D1D0AC0BCA4C57B9EF /* Pods-MichealsApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MichealsApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-MichealsApp/Pods-MichealsApp.release.xcconfig"; sourceTree = "<group>"; };
+		FDD3B909BE0829734BB36782 /* Pods-MichealsApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MichealsApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MichealsApp/Pods-MichealsApp.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +55,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE3A88EE5F942EE07082367F /* Pods_MichealsApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		84263EE722DF00A400520ED6 /* font */ = {
+			isa = PBXGroup;
+			children = (
+				84263EE822DF00BA00520ED6 /* A Little Mixed Up.ttf */,
+			);
+			path = font;
+			sourceTree = "<group>";
+		};
 		844EEF7322C2E344009F4D3A = {
 			isa = PBXGroup;
 			children = (
+				8415142A22D96B1D00AE10DA /* cheering.mp3 */,
+				84B7212322C4AD5400AAD7C8 /* ButtonStruct.swift */,
 				844EEF7E22C2E344009F4D3A /* MichealsApp */,
 				844EEF7D22C2E344009F4D3A /* Products */,
+				DB9C928FE59C551314F4381C /* Pods */,
+				EBC01E0FB1F503FFB76E2FFF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +93,41 @@
 		844EEF7E22C2E344009F4D3A /* MichealsApp */ = {
 			isa = PBXGroup;
 			children = (
+				84263EE522DEEE2A00520ED6 /* Video.mp4 */,
+				844EEF9422C2E38B009F4D3A /* MichealsApp.entitlements */,
 				844EEF7F22C2E344009F4D3A /* AppDelegate.swift */,
 				844EEF8122C2E344009F4D3A /* ViewController.swift */,
+				84194A2D22C4405000DA14A1 /* LogIn.swift */,
 				844EEF8322C2E344009F4D3A /* Main.storyboard */,
+				84194A2722C43D0B00DA14A1 /* FirstPage.swift */,
+				84194A2922C43D2400DA14A1 /* Register.swift */,
+				84194A2B22C43D3100DA14A1 /* Market.swift */,
 				844EEF8922C2E347009F4D3A /* Assets.xcassets */,
+				84263EE722DF00A400520ED6 /* font */,
 				844EEF8B22C2E347009F4D3A /* LaunchScreen.storyboard */,
 				844EEF8E22C2E347009F4D3A /* Info.plist */,
 				844EEF8622C2E345009F4D3A /* MichealsApp.xcdatamodeld */,
+				84D445FF22D94EE0000471A2 /* bridgingFacebook.m */,
+				84D445FE22D94EE0000471A2 /* MichealsApp-Bridging-Header.h */,
 			);
 			path = MichealsApp;
+			sourceTree = "<group>";
+		};
+		DB9C928FE59C551314F4381C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FDD3B909BE0829734BB36782 /* Pods-MichealsApp.debug.xcconfig */,
+				BAD3B3D1D0AC0BCA4C57B9EF /* Pods-MichealsApp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EBC01E0FB1F503FFB76E2FFF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9D88E9CE2FBF85BFF1C91ADA /* Pods_MichealsApp.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +137,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 844EEF9122C2E347009F4D3A /* Build configuration list for PBXNativeTarget "MichealsApp" */;
 			buildPhases = (
+				8751156D4BDF0A4B7FFFE102 /* [CP] Check Pods Manifest.lock */,
 				844EEF7822C2E344009F4D3A /* Sources */,
 				844EEF7922C2E344009F4D3A /* Frameworks */,
 				844EEF7A22C2E344009F4D3A /* Resources */,
+				991E01F089B206AB6B825DB7 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -99,6 +164,18 @@
 				TargetAttributes = {
 					844EEF7B22C2E344009F4D3A = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1020;
+						SystemCapabilities = {
+							com.apple.ApplePay = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 0;
+							};
+							com.apple.Wallet = {
+								enabled = 0;
+							};
+						};
 					};
 				};
 			};
@@ -128,10 +205,70 @@
 				844EEF8D22C2E347009F4D3A /* LaunchScreen.storyboard in Resources */,
 				844EEF8A22C2E347009F4D3A /* Assets.xcassets in Resources */,
 				844EEF8522C2E344009F4D3A /* Main.storyboard in Resources */,
+				84263EE622DEEE2B00520ED6 /* Video.mp4 in Resources */,
+				84263EE922DF00BA00520ED6 /* A Little Mixed Up.ttf in Resources */,
+				8415142B22D96B1D00AE10DA /* cheering.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8751156D4BDF0A4B7FFFE102 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MichealsApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		991E01F089B206AB6B825DB7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MichealsApp/Pods-MichealsApp-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Bolts-Swift/BoltsSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKShareKit/FBSDKShareKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FacebookCore/FacebookCore.framework",
+				"${BUILT_PRODUCTS_DIR}/FacebookLogin/FacebookLogin.framework",
+				"${BUILT_PRODUCTS_DIR}/FacebookShare/FacebookShare.framework",
+				"${BUILT_PRODUCTS_DIR}/Parse/Parse.framework",
+				"${BUILT_PRODUCTS_DIR}/Stripe/Stripe.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BoltsSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKShareKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FacebookCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FacebookLogin.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FacebookShare.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Parse.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Stripe.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MichealsApp/Pods-MichealsApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		844EEF7822C2E344009F4D3A /* Sources */ = {
@@ -140,7 +277,13 @@
 			files = (
 				844EEF8822C2E345009F4D3A /* MichealsApp.xcdatamodeld in Sources */,
 				844EEF8222C2E344009F4D3A /* ViewController.swift in Sources */,
+				84D4460022D94EE0000471A2 /* bridgingFacebook.m in Sources */,
 				844EEF8022C2E344009F4D3A /* AppDelegate.swift in Sources */,
+				84194A2E22C4405000DA14A1 /* LogIn.swift in Sources */,
+				84194A2822C43D0B00DA14A1 /* FirstPage.swift in Sources */,
+				84194A2A22C43D2400DA14A1 /* Register.swift in Sources */,
+				84B7212422C4AD5400AAD7C8 /* ButtonStruct.swift in Sources */,
+				84194A2C22C43D3100DA14A1 /* Market.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -221,6 +364,7 @@
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-ObjC";
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -275,6 +419,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				OTHER_LDFLAGS = "-ObjC";
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
@@ -284,10 +429,14 @@
 		};
 		844EEF9222C2E347009F4D3A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FDD3B909BE0829734BB36782 /* Pods-MichealsApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = MichealsApp/MichealsApp.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = RFGGT46LTQ;
+				"GCC_PREPROCESSOR_DEFINITIONS[arch=*]" = STRIPE_ENABLE_APPLEPAY;
 				INFOPLIST_FILE = MichealsApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -295,6 +444,9 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = n.MichealsApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MichealsApp/MichealsApp-Bridging-Header.h";
+				"SWIFT_OBJC_BRIDGING_HEADER[arch=*]" = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -302,10 +454,14 @@
 		};
 		844EEF9322C2E347009F4D3A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BAD3B3D1D0AC0BCA4C57B9EF /* Pods-MichealsApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = MichealsApp/MichealsApp.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = RFGGT46LTQ;
+				"GCC_PREPROCESSOR_DEFINITIONS[arch=*]" = STRIPE_ENABLE_APPLEPAY;
 				INFOPLIST_FILE = MichealsApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -313,6 +469,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = n.MichealsApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MichealsApp/MichealsApp-Bridging-Header.h";
+				"SWIFT_OBJC_BRIDGING_HEADER[arch=*]" = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
